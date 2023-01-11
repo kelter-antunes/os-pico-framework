@@ -9,7 +9,11 @@
 // ––––––––––––––––––––
 
 // Render the `main` element consistently in IE
-main {
+// Added OutSystems support. OutSystems Reactive Web Apps can't define a 'main' tag,
+// instead we will be using a div.main
+
+main,
+div.main {
   display: block;
 }
 
@@ -23,6 +27,7 @@ main {
 
   > header,
   > main,
+  > div.main,
   > footer {
     width: 100%;
     margin-right: auto;

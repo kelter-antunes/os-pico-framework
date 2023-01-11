@@ -6,7 +6,10 @@
 $navHeight: 3.5rem;
 
 // Main grid
-body > main {
+// Added OutSystems support. OutSystems Reactive Web Apps can't define a 'main' tag,
+// instead we will be using a div.main
+body > main,
+body > div.main {
   padding-top: calc(var(--block-spacing-vertical) + #{$navHeight});
 
   @if map-get($breakpoints, "lg") {

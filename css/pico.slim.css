@@ -499,7 +499,8 @@ progress,
  * Sectioning
  * Container and responsive spacings for header, main, footer
  */
-main {
+main,
+div.main {
   display: block;
 }
 
@@ -509,6 +510,7 @@ body {
 }
 body > header,
 body > main,
+body > div.main,
 body > footer {
   width: 100%;
   margin-right: auto;

@@ -563,7 +563,8 @@ progress,
  * Sectioning
  * Container and responsive spacings for header, main, footer
  */
-main {
+main,
+div.main {
   display: block;
 }
 
@@ -573,6 +574,7 @@ body {
 }
 body > header,
 body > main,
+body > div.main,
 body > footer {
   width: 100%;
   margin-right: auto;
@@ -582,6 +584,7 @@ body > footer {
 @media (min-width: 576px) {
   body > header,
 body > main,
+body > div.main,
 body > footer {
     max-width: 510px;
     padding-right: 0;
@@ -591,6 +594,7 @@ body > footer {
 @media (min-width: 768px) {
   body > header,
 body > main,
+body > div.main,
 body > footer {
     max-width: 700px;
   }
@@ -598,6 +602,7 @@ body > footer {
 @media (min-width: 992px) {
   body > header,
 body > main,
+body > div.main,
 body > footer {
     max-width: 920px;
   }
@@ -605,6 +610,7 @@ body > footer {
 @media (min-width: 1200px) {
   body > header,
 body > main,
+body > div.main,
 body > footer {
     max-width: 1130px;
   }
