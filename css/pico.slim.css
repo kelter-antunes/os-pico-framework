@@ -511,7 +511,11 @@ body {
 body > header,
 body > main,
 body > div.main,
-body > footer {
+body > footer,
+body header,
+body main,
+body div.main,
+body footer {
   width: 100%;
   margin-right: auto;
   margin-left: auto;

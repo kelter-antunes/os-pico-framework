@@ -1,0 +1,8 @@
+/**
+ * OutSystems internal styles overrides
+ */
+
+[data-input]:empty {
+    height: calc(1rem * var(--line-height) + var(--form-element-spacing-vertical) * 2 + var(--border-width) * 2);
+    padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
+}

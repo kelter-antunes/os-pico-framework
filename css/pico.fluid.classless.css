@@ -575,7 +575,11 @@ body {
 body > header,
 body > main,
 body > div.main,
-body > footer {
+body > footer,
+body header,
+body main,
+body div.main,
+body footer {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -2460,6 +2464,13 @@ textarea,
     transition-delay: 0s !important;
     transition-duration: 0s !important;
   }
+}
+/**
+ * OutSystems internal styles overrides
+ */
+[data-input]:empty {
+  height: calc(1rem * var(--line-height) + var(--form-element-spacing-vertical) * 2 + var(--border-width) * 2);
+  padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
 }
 
 /*# sourceMappingURL=pico.fluid.classless.css.map */

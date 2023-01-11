@@ -28,7 +28,11 @@ div.main {
   > header,
   > main,
   > div.main,
-  > footer {
+  > footer,
+  header,
+  main,
+  div.main,
+  footer {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
